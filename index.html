@@ -4,17 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Money Exchange</title>
 </head>
 
 <body>
+
+    <main>
+
+        <div class="text-center">
+
+            <h1 class="text-3xl font-bold underline text-orange-500">Money Exchange</h1>
+            <h2><u></u></h2>
+            <br>
+            <button class="border-solid border-2 border-sky-500 border-solid hover:border-dotted"
+                onclick="compra()">&nbsp;Compra&nbsp;</button>
+            <br>
+            <br>
+            <br>
+            <button class="border-solid border-2 border-sky-500 border-solid hover:border-dotted"
+                onclick="venta()"><span>&nbsp;Venta&nbsp;</span></button>
+            <br>
+        </div>
+    </main>
+
     <script src="./script.js"></script>
 </body>
-
-<h2><u>Money Exchange</u></h2>
-
-<button onclick="comenzar()">Comenzar</button>
-<br>
-<br>
 
 </html>
